@@ -76,8 +76,8 @@ const {
             >
 
             <StripeCheckout
-             stripeKey="pk_test_51JUQKISIc19WDGdZtOXH8ueCYk0N31t1sEfjZohHXJldiPETLm6ZV17yuFtHZagIQR8Y7UmK1GOME8Em2Fi5uGRP00oVSHiNkO"
-            //stripeKey={process.env.REACT_APP_KEY}
+            
+            stripeKey={process.env.REACT_APP_KEY}
             token={BuyNow}
             name="Buy Product"
             // amount={prod.price*100}
