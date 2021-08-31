@@ -118,8 +118,8 @@ const Cart = () => {
           disabled={cart.length === 0}
         >
          <StripeCheckout
-            stripeKey="pk_test_51JUQKISIc19WDGdZtOXH8ueCYk0N31t1sEfjZohHXJldiPETLm6ZV17yuFtHZagIQR8Y7UmK1GOME8Em2Fi5uGRP00oVSHiNkO"
-           //stripeKey={process.env.REACT_APP_API_KEY}
+            
+           stripeKey={process.env.REACT_APP_API_KEY}
             token={BuyNow}
             name="Buy Product"
            amount={totalAmount*100/72.97}
